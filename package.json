@@ -1,0 +1,32 @@
+{
+  "name": "react-fake-components",
+  "description": "Fake a number of React components at will",
+  "main": "index.js",
+  "scripts": {
+    "test": "node __tests__/index-test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dariocravero/react-fake-components.git"
+  },
+  "keywords": [
+    "fake",
+    "react",
+    "components"
+  ],
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dariocravero/react-fake-components/issues"
+  },
+  "homepage": "https://github.com/dariocravero/react-fake-components#readme",
+  "dependencies": {
+    "react": "^0.14.0"
+  },
+  "devDependencies": {
+    "react-shallow-render": "dariocravero/react-shallow-render#react-0.14",
+    "tape": "^4.2.1",
+    "semantic-release": "^4.3.5"
+  }
+}
